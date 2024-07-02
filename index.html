@@ -1,44 +1,102 @@
-<html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+    <title>Bhargav's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            color: #fff;
+            text-align: center;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            display: inline-block;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .container {
+            width: 80%;
+            margin: 2rem auto;
+        }
+        .section {
+            background: #fff;
+            padding: 2rem;
+            margin-bottom: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 0.5rem 0; /* Reduced padding */
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
-
 <body>
-
-
-<!-- Add code here -->
-<section id ="app">
-    <h1>Apps</h1>
-    <div class="line"></div>
-    <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/YJp9aWdb4QxJyMmqKEz2vAIHyBorgLlknGOzRhc2RSH/embed?nosource"></iframe>
-    <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/l3CjW15YtX_OUDN517rl6VlhaqA2bC6EspgWIJg6dfA/embed?nosource"></iframe>
-</section>
-<section id="game">
-    <h1>Games</h1>
-    <div class="line"></div>
-    <a href="https://studio.code.org/projects/gamelab/mvCmILPEreeVRT-T7MnnnIht2ZANX0jZNjmHFimeUJQ" target="_blank">
-        <img src="g2.png">
-    </a>
-    <a href="https://studio.code.org/projects/spritelab/2TPQ-3wqDMpkXDobedU8zSc9ZZUIFVTcLBVSL9UMJS4" target="_blank">
-        <img src="g1.png">
-    </a>
-</section>
-<section id="chatbot">
-    <h1>ChatBot</h1>
-    <div class="line"></div>
-    <iframe
-    allow="microphone;"
-    width="350"
-    height="430"
-    src="https://console.dialogflow.com/api-client/demo/embedded/18345577-b34c-408b-b4bb-5f02e27aee9c">
-</iframe>
-</section>
+    <header>
+        <h1>Bhargav's Personal Webpage</h1>
+        <p>Student & Hobbyist Developer</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="blog.html">Blog</a>
+        <a href="#portfolio">Portfolio</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>I am a student who likes to work on hobby projects. I usually work on small web-based projects individually that do only one thing but do it well.</p>
+        </section>
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <h3>LetsChat</h3>
+            <p>The current not big but not small (code lines wise) project I maintain is a project LetsChat. Its intent is to be a base on top of which a Social Media platform can be built. It does the basic stuff that defines a social media platform and also includes some features that not all but most social media platforms contain.</p>
+            <p>I otherwise work on smaller projects that are web-based, most of them I create in 4 days and after a few patches I never update them again, LetsChat being the exception. It is something that is a hobby project, but I plan to keep it around long-term. A lot of my smaller projects get merged into LetsChat as new features.</p>
+            <h3>NeoChat</h3>
+            <p>NeoChat is a unique one, its not my main project yet its not one of the ones I abandon after some time.</p>
+            <p>Its a proof-of-concept for how to build a website using LetsChat.</p>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>GitHub: <a href="https://github.com/BhargavEkbote/">https://github.com/BhargavEkbote/</a></p>
+            <p>Twitter: <a href="https://x.com/slitnical/">https://x.com/slitnical/</a></p>
+        </section>
+        <!--<section id="blog" class="section">
+            <h2>Blog</h2>
+            <p>Blog content will go here.</p>
+        </section>-->
+        <section id="portfolio" class="section">
+            <h2>Portfolio</h2>
+            <p>Portfolio content will be added shortly.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Bhargav</p>
+    </footer>
 </body>
-
 </html>
