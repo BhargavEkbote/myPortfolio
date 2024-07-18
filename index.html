@@ -3,52 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bhargav's Personal Webpage</title>
+    <title>Bhargav Ekbote</title>
     <style>
         body {
+            background-color: #121212;
+            color: #ffffff;
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
         }
         header {
-            background: #333;
-            color: #fff;
-            padding: 1rem 0;
+            background-color: #1f1f1f;
+            padding: 20px;
             text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
         }
         nav {
-            background: #444;
-            color: #fff;
-            text-align: center;
-            padding: 0.5rem 0;
+            display: flex;
+            justify-content: center;
+            background-color: #1f1f1f;
+            padding: 10px 0;
         }
         nav a {
-            color: #fff;
+            color: #ffffff;
             text-decoration: none;
-            padding: 0.5rem 1rem;
-            display: inline-block;
+            margin: 0 15px;
+            font-size: 1.2em;
         }
         nav a:hover {
-            background: #555;
+            text-decoration: underline;
         }
-        .container {
-            width: 80%;
-            margin: 2rem auto;
-        }
-        .section {
-            background: #fff;
-            padding: 2rem;
-            margin-bottom: 1rem;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
         }
         footer {
-            background: #333;
-            color: #fff;
+            background-color: #1f1f1f;
             text-align: center;
-            padding: 0.5rem 0; /* Reduced padding */
+            padding: 10px;
             position: fixed;
             width: 100%;
             bottom: 0;
@@ -57,46 +53,21 @@
 </head>
 <body>
     <header>
-        <h1>Bhargav's Personal Webpage</h1>
-        <p>Student & Hobbyist Developer</p>
+        <h1>Bhargav Ekbote</h1>
+        <p>I code as a hobby</p>
     </header>
     <nav>
-        <a href="#about">About Me</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="about.html">About Me</a>
+        <a href="projects.html">Projects</a>
         <a href="blog.html">Blog</a>
-        <a href="#portfolio">Portfolio</a>
+        <a href="contact.html">Contact</a>
     </nav>
-    <div class="container">
-        <section id="about" class="section">
-            <h2>About Me</h2>
-            <p>I am a student who likes to work on hobby projects. I usually work on small web-based projects individually that do only one thing but do it well.</p>
-        </section>
-        <section id="projects" class="section">
-            <h2>Projects</h2>
-            <h3>LetsChat</h3>
-            <p>The current not big but not small (code lines wise) project I maintain is a project LetsChat. Its intent is to be a base on top of which a Social Media platform can be built. It does the basic stuff that defines a social media platform and also includes some features that not all but most social media platforms contain.</p>
-            <p>I otherwise work on smaller projects that are web-based, most of them I create in 4 days and after a few patches I never update them again, LetsChat being the exception. It is still a hobby project, but I plan to keep it around long-term. A lot of my smaller projects get merged into LetsChat as new features.</p>
-            <h3>NeoChat</h3>
-            <p>NeoChat is a unique one, its not my main project yet its not one of the ones I abandon after some time.</p>
-            <p>Its a proof-of-concept for how to build a website using LetsChat.</p>
-        </section>
-        <section id="contact" class="section">
-            <h2>Contact</h2>
-            <p>GitHub: <a href="https://github.com/BhargavEkbote/">https://github.com/BhargavEkbote/</a></p>
-            <p>X: <a href="https://twitter.com/slitnical/">https://twitter.com/slitnical/</a></p>
-        </section>
-        <!--<section id="blog" class="section">
-            <h2>Blog</h2>
-            <p>Blog content will go here.</p>
-        </section>-->
-        <section id="portfolio" class="section">
-            <h2>Portfolio</h2>
-            <p>Portfolio content will be added shortly.</p>
-        </section>
-    </div>
+    <section>
+        <h2>Welcome</h2>
+        <p>Welcome to my personal webpage. Here, you can learn more about me, see my projects, read my blog, and find ways to contact me.</p>
+    </section>
     <footer>
-        <p>&copy; 2024 Bhargav</p>
+        <p>&copy; 2024 Bhargav Ekbote. All rights reserved.</p>
     </footer>
 </body>
 </html>
